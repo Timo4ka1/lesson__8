@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lato:wght@400;700;900&family=Oswald:wght@400;700&family=Roboto:wght@400;500;700&family=Rubik+Marker+Hatch&family=Yanone+Kaffeesatz:wght@500&display=swap");
+
+body {
+   color: #424551;
+   font-family: "Lato";
+}
+
+[class*="__container"] {
+   max-width: 1230px;
+   margin: 0 auto;
+}
+
+.title {
+   font-weight: 900;
+   font-size: 46px;
+   padding-top: 59px;
+   color: #1e212c;
+}
+
+.text {
+   padding-top: 40px;
+   max-width: 600px;
+}
+
+.willlearn {
+   display: inline-block;
+   font-weight: bold;
+   font-size: 28px;
+   padding-top: 48px;
+   color: #1e212c;
+   transition: all 1s;
+}
+
+.willlearn:hover{
+   font-size: 34px;
+}
+
+.puncts {
+   padding-top: 24px;
+   line-height: 25.6px;
+}
+
+.puncts:hover{
+   transition: all 0.5s;
+}
+
+ul li:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+.puncts ul li::before {
+   background-image: url(../img/vector.svg);
+   vertical-align: sub;
+   content: "";
+   width: 14.67px;
+   margin-right: 10px;
+   height: 14.67px;
+   background-size: 100% 100%;
+   padding-top: 20px;
+   display: inline-block;
+   background-repeat: no-repeat;
+}
+
+.pay-info {
+   display: block;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0px 0px 20px 0px #424551;
+   width: 495px;
+   height: 450px;
+   margin-left: 800px;
+   margin-top: -1150px;
+}
+
+[class*="-bold"] {
+   display: inline-block;
+   padding-left: 15px;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #1e212c;
+   letter-spacing: 1px;
+   font-size: 14px;
+   width: 420px; /*
+   max-width: 465px;*/
+}
+
+.dates-bold__container {
+   display: inline;
+   padding-left: 15px;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #1e212c;
+   letter-spacing: 1px;
+   font-size: 14px;
+   width: 420px;
+   max-width: 465px;
+}
+
+[class*="-red"] {
+   display: inline-block;
+   font-weight: 700;
+   color: #ff3f3a;
+   font-size: 24px;
+   text-align: left;
+   padding-top: 8px;
+   padding-left: 15px;
+   width: 420px;
+   max-width: 465px;
+}
+
+[class*="-info"] {
+   display: inline-block;
+   width: 485px;
+   max-width: 490px;
+   padding-top: 16px;
+   padding-left: 15px;
+   margin-bottom: 32px;
+   color: #424551;
+}
+
+.button {
+   cursor: pointer;
+   max-width: 450px;
+   align-items: center;
+   padding-top: 15px;
+   display: inline-block;
+   text-align: center;
+   font-weight: 700;
+   letter-spacing: 1px;
+   color: #ffff;
+   font-size: 16px;
+   background-image: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+   border-radius: 10px;
+   width: 431px;
+   height: 50px;
+   box-shadow: 0px 8px 0px #1e212c;
+   margin-left: 10px;
+   transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+   padding-bottom: 10px;
+   box-shadow: 0px 5px 0px #1e212c;
+}
+
+.button:active{
+   background-image: linear-gradient(55.95deg, #ff0800 0%, #ff0000 100%);
+}
+
+.photo {
+   padding-top: 114px;
+}
+
+.photo__container {
+   padding-top: 66px;
+   float: left;
+}
+
+.man {
+   background-image: url(../img/background-tiny.jpg), url(../img/image-tinny.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+}
+
+[class*="-experement"] {
+   font-weight: 900;
+   color: #1e212c;
+   text-transform: uppercase;
+}
+
+.curator-experement__container {
+   display: inline-block;
+   margin-left: 135px;
+   letter-spacing: 1px;
+   margin-top: 85px;
+}
+
+.name-experement__container {
+   display: block;
+   font-size: 46px;
+   margin-left: 592px;
+   margin-top: -25px;
+}
+
+.seniour__container {
+   font-size: 20px;
+   color: #424551;
+   margin-top: 16px;
+   display: block;
+   margin-left: 595px;
+}
+
+.statistic__container {
+   display: inline-block;
+   font-weight: 700;
+   margin-left: 140px;
+   margin-top: 32px;
+   line-height: 30px;
+}
+
+.rate::before {
+   background-image: url(../img/Star.svg);
+   content: "";
+   vertical-align: baseline;
+   width: 14.67px;
+   height: 14.67px;
+   margin-right: 10px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.courses::before {
+   background-image: url(../img/Vector2.svg);
+   content: "";
+   vertical-align: baseline;
+   margin-right: 10px;
+   width: 14.67px;
+   height: 14.67px;
+   display: inline-block;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+.students::before {
+   background-image: url(../img/Vector3.svg);
+   content: "";
+   margin-right: 10px;
+   vertical-align: middle;
+   width: 14.67px;
+   height: 14.67px;
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.information__container {
+   color: #424551;
+   font-size: 16px;
+   margin-top: 16px;
+   display: block;
+   margin-left: 600px;
+   max-width: 600px;
+}
+
+/*
+============================Практика============================
+*/
+
+.practice {
+   margin-top: 250px;
+}
+
+.divb-a::before {
+   content: "(";
+}
+
+.divb-a::after {
+   content: ")";
+}
+
+.hover-back{
+   width: 600px; 
+   background-color: aqua;
+   margin-top: 20px;
+   padding: 15px;
+}
+
+.hover-back:hover{
+   background-color: #ff3f3a;
+}
+
+
+.practice a:visited{
+   color: rgb(2, 137, 137);
+}
+
+.visitied:active{
+   color: #ff0000;
+}
+
+
+.visible-epxer{
+   margin-top: 20px;
+   background-color: green;
+   color: whitesmoke;
+   padding: 15px;
+   width: 1000px;
+}
+
+.visible-epxer:hover .visible-exper-item{
+   visibility: visible;
+   opacity: 1;
+}
+.visible-exper-item{
+   visibility: hidden;
+   opacity: 0;
+}
+
+.puncts__footer{
+   background-color: #bbbbbb;
+   width: 200px;
+   margin: 25px;
+}
+
+ul ul{
+   display: none;
+}
+
+ul li:hover ul{
+   display: block;
+}
